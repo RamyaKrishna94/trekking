@@ -1,0 +1,26 @@
+{
+    "routes": [
+        {
+            "path": "header",
+            "component": "headerComponent"
+        },
+        {
+            "path": "''",
+            "component": "",
+            "pathMatch": "full",
+            "redirectTo": "header",
+            "resolve": "",
+            "data": "",
+            "canActivate": ""
+        },
+        {
+            "path": "**",
+            "component": "PageNotFoundComponent",
+            "pathMatch": "",
+            "redirectTo": "",
+            "resolve": "",
+            "data": "",
+            "canActivate": ""
+        }
+    ]
+}

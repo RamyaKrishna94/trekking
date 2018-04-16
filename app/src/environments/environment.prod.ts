@@ -1,0 +1,21 @@
+export const environment = {
+    "envId": "8dce1046-d357-15e6-d450-02096e06284c",
+    "name": "prod",
+    "properties": {
+        "production": true,
+        "baseUrl": "http://localhost:3000",
+        "tenantName": "kdskd",
+        "appName": "trekking",
+        "namespace": "com.neutrinos.kdskd.trekking",
+        "isNotificationEnabled": false,
+        "googleMapKey": "AIzaSyCSTnVwijjv0CFRA4MEeS-H6PAQc87LEoU",
+        "firebaseSenderId": "FIREBASE_SENDER_ID",
+        "firebaseAuthKey": "FIREBASE_AUTH_KEY",
+        "authDomain": "FIREBASE_AUTH_DOMAIN",
+        "databaseURL": "FIREBASE_DATABASE_URL",
+        "storageBucket": "FIREBASE_STORAGE_BUCKET",
+        "messagingSenderId": "FIREBASE_SENDER_ID",
+        "appDataSource": "APP_DATA_SOURCE",
+        "appAuthenticationStrategy": "basicAuth"
+    }
+}

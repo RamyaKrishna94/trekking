@@ -1,0 +1,48 @@
+/*Importing default angular material css theme. */
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+/* You can add global styles to this file, and also import other style files */
+
+.headerBackground {
+    background: url("/assets/Web/Icons/ack.png"); 
+  height : 600px;
+}
+
+.headerText{
+  color : white !important;
+}
+
+.loginBtn{
+  background:orange !important;
+  color : white !important;
+    border-radius: 10px 10px 10px 10px !important;
+}
+
+.searchBar{
+      padding-left: 45px;
+    font-size :22px;
+    width: 25em;
+    border: 1px solid rgba(0,0,0,.1);
+    height: 40px;
+    background: rgba(255,255,255,.4);
+}
+.searchBar:hover{
+  background: white !important;
+}
+.searchBar .mat-form-field-underline{
+  height:0px!important;
+}
+
+.searchIcon{
+  color:grey;
+  position: relative;
+    left: 32px;
+}
+.searchBtn{
+  position:relative;
+   background:orange !important;
+  color : white !important;
+      height: 45px;
+      width: 12em;
+}
