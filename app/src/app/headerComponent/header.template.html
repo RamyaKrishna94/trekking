@@ -1,34 +1,27 @@
 <div id="angularRoot">
-  <div fxLayout="column" class="headerBackground" fxFlex="100" fxShow="true" fxHide="false" id="f504b8b7-1055-5484-3506-6c29c81581b7">
-    <div fxLayout="row" style="margin-top:3px" fxShow="true" fxHide="false" id="3e1413ef-16c7-597d-7b60-7ec9b1c89790">
-      <div fxLayout="column" fxFlex="15" fxLayoutGap="1.5em" fxShow="true" fxHide="false" id="1bd6af90-00bb-b867-f972-5cca2d6d0a46">
-        <img imgSrc="Web/Icons/images.png" style="width:13em" id="7cfac65d-fc71-f7da-8086-355b57a776e2">
+  <div fxLayout="column" class="headerBackground" fxFlex="100" fxShow="true" fxHide="false" id="f504b8b7-1055-5484-3506-6c29c81581b7" ngStyle.xs="height:330px">
+    <div fxLayout="row" style="margin-top:3px" fxShow="true" fxHide="false" id="3e1413ef-16c7-597d-7b60-7ec9b1c89790" fxLayout.xs="column">
+      <div fxLayout="column" fxFlex="18" fxLayoutGap="1.5em" fxShow="true" fxHide="false" id="1bd6af90-00bb-b867-f972-5cca2d6d0a46" fxFlex.sm="30" [style.max-width]="fxFlex == 100 ? 60 : &apos;&apos;">
+        <img imgSrc="Web/Icons/images.png" style="height:50px" id="7cfac65d-fc71-f7da-8086-355b57a776e2">
       </div>
-      <div fxLayout="column" fxFlex="25" fxShow="true" fxHide="false" id="d2c99a93-9b4b-5f1f-5494-2ec5f50b6323">
+      <div fxLayout="column" fxFlex="25" fxShow="true" fxHide="false" id="d2c99a93-9b4b-5f1f-5494-2ec5f50b6323" fxFlex.xs="30" fxFlex.sm="40">
         <div fxLayout="row" fxFlex="25" fxLayoutAlign="space-evenly" fxShow="true" fxHide="false" id="92becfa7-d73f-c128-a50c-67094a798c16">
           <button mat-button="" class="headerText" id="94bbf694-1c76-6be5-2e08-8ba4faecac1d">Destinations</button>
           <button mat-button="" class="headerText" id="0027c351-84f7-6857-1083-c950a95e7747">Gateways</button>
           <button mat-button="" class="headerText" id="14cb4533-d7c2-5b26-3a96-7680fe80d9d9">more +</button>
+          <mat-icon class="loginIconXs" id="4c87ef7c-36d1-82e0-43b6-6e4f1837f355" fxHide.xs="false" fxHide="true">person</mat-icon>
         </div>
       </div>
-      <div fxLayout="column" fxFlex="55" fxLayoutAlign="center " fxShow="true" fxHide="false" id="03d3d484-7502-0e57-9b8d-34a9da854d9f">
+      <div fxLayout="column" fxFlex="55" fxLayoutAlign="center " fxShow="true" fxHide="false" id="03d3d484-7502-0e57-9b8d-34a9da854d9f" fxFlex.sm="25">
         <div fxLayout="row" fxLayoutAlign="end center" fxShow="true" fxHide="false" id="2c8d8603-6747-7bd0-83ff-dbb8c7004cf9">
-          <mat-icon class="headerText" id="3b25d9ae-54c4-1e76-ef59-2f8f9b936e62">card_giftcard</mat-icon>
-          <button mat-button="" class="headerText" id="17a3f504-52f6-1cea-8e29-83613cbcd864">Gift An Experience</button>
-          <button mat-raised-button="" class="loginBtn " id="220aefd7-0a84-fd5c-7218-37205052fdaa">Login</button>
+          <mat-icon class="headerText" id="3b25d9ae-54c4-1e76-ef59-2f8f9b936e62" fxHide.lt-md="true">card_giftcard</mat-icon>
+          <button mat-button="" class="headerText" id="17a3f504-52f6-1cea-8e29-83613cbcd864" fxHide.lt-md="true">Gift An Experience</button>
+          <button mat-raised-button="" class="loginBtn " id="220aefd7-0a84-fd5c-7218-37205052fdaa" fxHide.xs="true">Login</button>
         </div>
       </div>
     </div>
-    <div fxLayout="row" style="margin-top:10%" fxShow="true" fxHide="false" id="de9889b6-3f37-32d1-5f08-504d16dded2d">
-      <div fxLayout="column" fxFlex="100" fxLayoutAlign="center center" fxShow="true" fxHide="false" id="ccbf478c-becb-5f5d-e347-15a1d8d4c2e6">
-        <h1 id="f8badafb-922f-63ee-d482-06a4cfad8049" style="margin-bottom:5px !important" class="headerText">10,000+ Travel Experiences in 25+ Countries</h1>
-        <h1 id="6f19c76a-fb64-bdc5-d939-ce50a6faeabd" style="font-size:40px;margin-top:0px !important" class="headerText">BE THERE, DO THAT!</h1>
-      </div>
-    </div>
-    <div fxLayout="row" fxLayoutAlign="center center" fxShow="true" fxHide="false" id="f4cb875f-9870-dcaa-1071-50f3f51880cb">
-      <mat-icon class="searchIcon" id="b232f053-7653-3e93-e735-a0cf0503715f">search</mat-icon>
-      <input class="searchBar" PlaceHolder="Search for Activities, Tours and Experiences..">
-      <button mat-raised-button="" class="searchBtn" id="31708bbd-c168-cdaa-19be-47e2d17cb858">Search</button>
+    <div fxLayout="row" fxShow="true" fxHide="false" id="4095dad9-b204-bde9-8724-dc69d7c8dace">
+      <bh-homeheader style="width:100%"></bh-homeheader>
     </div>
   </div>
 </div>

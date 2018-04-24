@@ -3,5 +3,10 @@
         "appPageName": "header",
         "componentName": "headerComponent",
         "isEntry": false
+    },
+    "87ea3b06-c40c-4c3a-c595-2d687ba23cb8": {
+        "appPageName": "HomeHeader",
+        "componentName": "homeheaderComponent",
+        "isEntry": false
     }
 }

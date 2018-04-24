@@ -20,6 +20,8 @@ import { APP_INITIALIZER } from '@angular/core';
 import { BLogoutService } from '../service/bLogout.service';
 
 //CORE_REFERENCE_IMPORTS
+//CORE_REFERENCE_IMPORT-homeheaderComponent
+import { homeheaderComponent } from '../homeheaderComponent/homeheader.component';
 //CORE_REFERENCE_IMPORT-headerComponent
 import { headerComponent } from '../headerComponent/header.component';
 
@@ -53,6 +55,8 @@ export const appDeclarations = [
   TestComponent,
   AlertComponent,
   //CORE_REFERENCE_PUSH_TO_DEC_ARRAY
+//CORE_REFERENCE_PUSH_TO_DEC_ARRAY-homeheaderComponent
+homeheaderComponent,
 //CORE_REFERENCE_PUSH_TO_DEC_ARRAY-headerComponent
 headerComponent,
   PageNotFoundComponent,

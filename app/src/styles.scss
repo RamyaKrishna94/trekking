@@ -22,7 +22,7 @@
 .searchBar{
       padding-left: 45px;
     font-size :22px;
-    width: 25em;
+    width: 80% !important;
     border: 1px solid rgba(0,0,0,.1);
     height: 40px;
     background: rgba(255,255,255,.4);
@@ -44,5 +44,10 @@
    background:orange !important;
   color : white !important;
       height: 45px;
-      width: 12em;
+      width: 20% !important;
+}
+
+.loginIconXs{
+      margin-top: 5px;
+    color: white;
 }
