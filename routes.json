@@ -1,14 +1,19 @@
 {
     "routes": [
         {
-            "path": "header",
-            "component": "headerComponent"
+            "path": "home",
+            "component": "homeComponent",
+            "pathMatch": "",
+            "redirectTo": "",
+            "resolve": "",
+            "data": "",
+            "canActivate": ""
         },
         {
             "path": "''",
             "component": "",
             "pathMatch": "full",
-            "redirectTo": "header",
+            "redirectTo": "home",
             "resolve": "",
             "data": "",
             "canActivate": ""

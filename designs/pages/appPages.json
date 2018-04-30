@@ -8,5 +8,15 @@
         "appPageName": "HomeHeader",
         "componentName": "homeheaderComponent",
         "isEntry": false
+    },
+    "c0e9e805-2840-080b-706d-c3eb8a4a3426": {
+        "appPageName": "home",
+        "componentName": "homeComponent",
+        "isEntry": false
+    },
+    "c9009eed-36c2-a866-49f6-74889ae992bb": {
+        "appPageName": "homePageContent",
+        "componentName": "homepagecontentComponent",
+        "isEntry": false
     }
 }

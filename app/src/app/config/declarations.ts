@@ -20,6 +20,10 @@ import { APP_INITIALIZER } from '@angular/core';
 import { BLogoutService } from '../service/bLogout.service';
 
 //CORE_REFERENCE_IMPORTS
+//CORE_REFERENCE_IMPORT-homepagecontentComponent
+import { homepagecontentComponent } from '../homepagecontentComponent/homepagecontent.component';
+//CORE_REFERENCE_IMPORT-homeComponent
+import { homeComponent } from '../homeComponent/home.component';
 //CORE_REFERENCE_IMPORT-homeheaderComponent
 import { homeheaderComponent } from '../homeheaderComponent/homeheader.component';
 //CORE_REFERENCE_IMPORT-headerComponent
@@ -55,6 +59,10 @@ export const appDeclarations = [
   TestComponent,
   AlertComponent,
   //CORE_REFERENCE_PUSH_TO_DEC_ARRAY
+//CORE_REFERENCE_PUSH_TO_DEC_ARRAY-homepagecontentComponent
+homepagecontentComponent,
+//CORE_REFERENCE_PUSH_TO_DEC_ARRAY-homeComponent
+homeComponent,
 //CORE_REFERENCE_PUSH_TO_DEC_ARRAY-homeheaderComponent
 homeheaderComponent,
 //CORE_REFERENCE_PUSH_TO_DEC_ARRAY-headerComponent
@@ -99,5 +107,5 @@ export const appProviders = [
 */
 
 // CORE_REFERENCE_PUSH_TO_ROUTE_ARRAY_START
-export const appRoutes = [{path: 'header', component: headerComponent},{path: '', redirectTo: 'header', pathMatch: 'full'},{path: '**', component: PageNotFoundComponent}]
+export const appRoutes = [{path: 'home', component: homeComponent},{path: '', redirectTo: 'home', pathMatch: 'full'},{path: '**', component: PageNotFoundComponent}]
 // CORE_REFERENCE_PUSH_TO_ROUTE_ARRAY_END

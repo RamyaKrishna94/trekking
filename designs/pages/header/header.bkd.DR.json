@@ -607,8 +607,15 @@
                 "_attrDef": "p"
             },
             {
+                "8": false,
                 "_key": "ngStyle.xs",
                 "_value": "height:330px",
+                "_type": "kv",
+                "_attrDef": "c"
+            },
+            {
+                "_key": "ngStyle.sm",
+                "_value": "height:435px",
                 "_type": "kv",
                 "_attrDef": "c"
             }
@@ -868,9 +875,9 @@
         ],
         "type": 5
     },
-    "4095dad9-b204-bde9-8724-dc69d7c8dace": {
+    "96fde162-92d7-c65f-9ef8-320cd89f02d0": {
         "name": "FlexLayoutRow",
-        "guid": "4095dad9-b204-bde9-8724-dc69d7c8dace",
+        "guid": "96fde162-92d7-c65f-9ef8-320cd89f02d0",
         "template": "<div fxLayout=\"row\" %style% %class% %fxFlex% %fxLayoutWrap% %fxLayoutGap% %fxLayoutAlign% %fxShow% %fxHide% %bCustomProps%></div>",
         "designerTemplate": "<div class=\"row drop bkeeper-container-label\"></div>",
         "paletteTemplate": "Flex Layout Row",
@@ -927,9 +934,9 @@
         ],
         "type": 1
     },
-    "e66c7cf4-30d5-58be-9c70-795190bf7768": {
+    "011c6f7a-8109-b2c3-ae07-b2f9b1180241": {
         "name": "HTML",
-        "guid": "e66c7cf4-30d5-58be-9c70-795190bf7768",
+        "guid": "011c6f7a-8109-b2c3-ae07-b2f9b1180241",
         "template": "%html%",
         "designerTemplate": "<div class=\"ad-lists bkeeper-container-label bkeeper-general-css\" b-props=\"html-editor\"><i style=\"font-size: 37px;line-height: 2;padding: 1px;\" class=\"material-icons\">code</i></div>",
         "paletteTemplate": "HTML",

@@ -15,7 +15,7 @@
                 "_attrDef": "p"
             },
             {
-                "1": true,
+                "1": false,
                 "_key": "class",
                 "_value": "",
                 "_type": "kv",
@@ -29,12 +29,14 @@
                 "_attrDef": "p"
             },
             {
+                "3": false,
                 "_key": "fxLayoutWrap",
                 "_value": "",
                 "_type": "kv",
                 "_attrDef": "p"
             },
             {
+                "4": false,
                 "_key": "fxLayoutGap",
                 "_value": "",
                 "_type": "kv",
@@ -85,7 +87,7 @@
                 "_attrDef": "p"
             },
             {
-                "2": true,
+                "2": false,
                 "_key": "fxFlex",
                 "_value": "",
                 "_type": "kv",
@@ -140,7 +142,7 @@
             {
                 "0": false,
                 "_key": "style",
-                "_value": "",
+                "_value": "text-align:center",
                 "_type": "kv",
                 "_attrDef": "p"
             },
@@ -175,11 +177,12 @@
             {
                 "5": false,
                 "_key": "fxLayoutAlign",
-                "_value": "center center",
+                "_value": "",
                 "_type": "kv",
                 "_attrDef": "p"
             },
             {
+                "6": false,
                 "_key": "fxShow",
                 "_value": "true",
                 "_type": "kv",
@@ -286,9 +289,9 @@
         "templateUrl": "https://github.com/angular/flex-layout/wiki/fxLayout-API",
         "htmlAttributes": [
             {
-                "0": true,
+                "0": false,
                 "_key": "style",
-                "_value": "width:80% !important",
+                "_value": "width:70% !important",
                 "_type": "kv",
                 "_attrDef": "p"
             },
@@ -300,7 +303,7 @@
                 "_attrDef": "p"
             },
             {
-                "2": true,
+                "2": false,
                 "_key": "fxFlex",
                 "_value": "",
                 "_type": "kv",
@@ -397,7 +400,7 @@
             },
             {
                 "_key": "html",
-                "_value": "<input class=\"searchBar\" PlaceHolder=\"Search for Activities, Tours and Experiences..\">",
+                "_value": "<input class=\"searchBar\" ngClass.xs = \"searchBar-xs\" PlaceHolder=\"Search for Activities, Tours and Experiences..\">",
                 "_type": "a",
                 "_attrDef": "p"
             }
@@ -444,6 +447,12 @@
                 "_value": "",
                 "_type": "kv",
                 "_attrDef": "p"
+            },
+            {
+                "_key": "ngClass.xs ",
+                "_value": "searchBtn-xs",
+                "_type": "kv",
+                "_attrDef": "c"
             }
         ],
         "type": 5
